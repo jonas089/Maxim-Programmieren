@@ -1,7 +1,9 @@
 '''import time # ist ein modul, module sind code von andern Leuten den wir in unser Projekt importieren können
 i = 2 # integer ganze zahl ohne komma positive und negativ
+# ab hier ist die Variable i immer die Zahl 2
 f = 1.1 # float eine zahl mit komma, positiv und negativ
-# ab hier ist der Buchstabe i immer die Zahl 1
+i -= 1
+# ab hier ist die Variable i immer die Zahl 1
 print(str(f + 1)) # str konvertiert variablen zu strings (text)
 time.sleep(5) # 5 sekunden warten, funktioniert nur wen das modul "time" importiert wurde
 '''
